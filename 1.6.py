@@ -20,3 +20,9 @@ d.setdefault('a', []).append(2)
 d.setdefault('a', []).append(43)
 
 print(d)
+
+x = defaultdict(int)
+
+print(x)
+
+print(x[1])

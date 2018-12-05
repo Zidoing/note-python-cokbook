@@ -13,9 +13,6 @@ max_price = max(zip(prices.values(), prices.keys()))
 
 print(max_price)
 
-
-prices_sorted = sorted(zip(prices.values(),prices.keys()))
+prices_sorted = sorted(zip(prices.values(), prices.keys()))
 
 print(prices_sorted)
-
-
